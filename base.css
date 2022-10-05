@@ -65,7 +65,7 @@
     --img-direx-bg-small: url('directions_small.png');
 
     /*LOOPS*/
-    --bg-box: #000;
+    --bg-box: #D6B13A;
 
     --active-border: transparent; /* sets color of the loops-border which is playing */
     --boxes_cont_bg: black;
@@ -80,7 +80,7 @@
     /*MASTER PLAY*/
     --bg-master: transparent;
     --bg-btn-updown: transparent;
-    --txt-master: white;
+    --txt-master: #D6B13A;
     --img-master-play: url("master_play.svg");
     --img-master-stop: url("master_stop.svg");
     --txt_progress_color: white;
@@ -135,10 +135,9 @@
     --bg-btn-updown: #33373C;
     --bg-slider: rgb(63, 63, 63);
     --slider: #D6B13A;
-    ;
     --btn-hover: #6e6e6e;
     --txt: grey;
-    --txt-box: white;
+    --txt-box: black;
     --progress-bg: yellow;
 
     --txt-marquee: white;

@@ -17,23 +17,33 @@ let presetElements = [];
 let elements = [];
 
 purchaseElement.addEventListener('click', function(){
+
+    console.log("click")
     
     gsap.fromTo("#body", {backgroundColor:"red", ease: "Power1.easeOut"}, {backgroundColor:"black"});
     
     });
 
+    console.log("click")
     playElement.addEventListener('click', function(){
 
 
+        console.log("click")
+
         if (playElement.className == "stop") {
 
+
+            console.log("click if")
             gsap.fromTo("#body", {backgroundColor:"red", ease: "Power1.easeOut"}, {backgroundColor:"black"});
         }
         else {
 
+            console.log("click else")
+
         gsap.fromTo("#body", {backgroundColor:"green", ease: "Power1.easeOut"}, {backgroundColor:"black"});
         
         }
+
     });
 
 
@@ -560,8 +570,12 @@ console.log(objkt)
             console.log("• Owner Not Verified: Collect to Unlock Downloads")
             console.log("COLLECT TO DOWNLOAD")
 
-            downloadButton.style.display = 'none';
-            purchaseElement.style.display = 'block';
+            downloadButton.style.display = 'block';
+            purchaseElement.style.display = 'none';
+            downloadButton.onclick = function () {
+                render();
+                gsap.fromTo("#body", {backgroundColor:"green", ease: "Power1.easeOut"}, {backgroundColor:"black"});
+            }
             
             }
         })

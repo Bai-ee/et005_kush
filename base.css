@@ -80,7 +80,7 @@
     /*MASTER PLAY*/
     --bg-master: transparent;
     --bg-btn-updown: transparent;
-    --txt-master: #D6B13A;
+    --txt-master: white;
     --img-master-play: url("master_play.svg");
     --img-master-stop: url("master_stop.svg");
     --txt_progress_color: white;
